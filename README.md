@@ -1,4 +1,4 @@
-# Bangumi-Let-Me-Watch [![bangumi](http://bgm.tv/img/ico/bgm80-15.png)](http://bgm.tv)
+# bangumi-let-me-watch [![bangumi](http://bgm.tv/img/ico/bgm80-15.png)](http://bgm.tv)
 自动将 bangumi 日期到了的“想看”动画标为“在看”。
 
 ## 使用方法（GitHub Actions）
