@@ -63,6 +63,10 @@ def parse_subjects(html: str) -> List[Tuple[str, str]]:
             continue
         subject_id = cover['href'].split('/')[-1]
 
+        if re.search(r'\D1话', item.get_text().strip()):
+            print(f"条目 {subject_id} 疑似为剧场版，跳过")
+            continue
+
         # 提取并格式化日期
         date_tag = item.select_one('.info.tip')
         if not date_tag:
